@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-# Функция для проверки победы
+# Функция для проверки  победы
 def check_win(board, player):
     # Проверка горизонталей
     for row in board:
