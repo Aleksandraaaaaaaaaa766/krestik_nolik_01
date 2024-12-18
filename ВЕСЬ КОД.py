@@ -24,7 +24,7 @@ def check_draw(board):
     
 # Функция для обработки хода игрока
 def player_move(row, col):
-    global current_player
+     current_player
     if board[row][col] == " ":
         board[row][col] = current_player
         buttons[row][col].config(text=current_player, state="disabled")
