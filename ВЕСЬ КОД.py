@@ -34,7 +34,7 @@ def player_move(row, col):
             messagebox.showinfo("Победа!", f"Игрок {current_player} победил!")
             reset_game()
         # Проверка на ничью
-        (board):
+        elif check_draw(board):
             messagebox.showinfo("Ничья!", "Ничья!")
             reset_game()
         else:
